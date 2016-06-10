@@ -401,18 +401,18 @@ In class implementations, there should be one line between every methods, and on
 
 ***Example:***
 ```objc
-typedef NS_ENUM(BMACollectionViewLayoutMode, NSUInteger) {
+typedef NS_ENUM(NSUInteger, BMACollectionViewLayoutMode) {
      BMACollectionViewLayoutModeGrid,
      BMACollectionViewLayoutModeFullscreen
-}
+};
 ```
 
 ***Not:***
 ```objc
-typedef NS_ENUM(BMACollectionViewLayoutMode, NSUInteger) {
+typedef NS_ENUM(NSUInteger, BMACollectionViewLayoutMode) {
      BMACollectionViewLayoutGridMode,
      BMACollectionViewLayoutFullscreenMode
-}
+};
 ```
 
 ## Properties
